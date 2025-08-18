@@ -14,7 +14,7 @@ export function CardCartItem({
 }: CartItemProps) {
   return (
     <tr>
-      <td>{item.name}</td>
+      <td data-testid="cart-item">{item.name}</td>
       <td>R$ {item.price.toFixed(2)}</td>
       <td>{item.qty}</td>
       <td>R$ {(item.price * item.qty).toFixed(2)}</td>

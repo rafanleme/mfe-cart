@@ -38,7 +38,7 @@ function CartPage() {
 
   return (
     <div>
-      <h2 style={{ marginTop: 0 }}>🛒 MFE Cart</h2>
+      <h2 style={{ marginTop: 0 }} data-testid="title-cart">🛒 MFE Cart</h2>
       {snap.items.length === 0 ? (
         <p className="muted">Seu carrinho está vazio.</p>
       ) : (
