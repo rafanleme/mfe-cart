@@ -63,6 +63,7 @@ function CartPage() {
                 Limpar
               </button>
               <button
+                data-testid="button-finalize"
                 className="btn"
                 style={{
                   marginLeft: 8,
