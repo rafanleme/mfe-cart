@@ -80,7 +80,7 @@ describe("CardCartItem (unit)", () => {
     const item: CartItem = { id: "x", name: "Produto X", price: 10.5, qty: 3 };
     const { cells } = renderRow(item);
 
-    expect(cells[1]).toHaveTextContent(currency(10.6));  // "R$ 10.50"
+    expect(cells[1]).toHaveTextContent(currency(10.5));  // "R$ 10.50"
     expect(cells[3]).toHaveTextContent(currency(31.5));  // "R$ 31.50"
   });
 
