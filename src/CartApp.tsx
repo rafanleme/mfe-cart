@@ -67,8 +67,8 @@ function CartPage() {
                 className="btn"
                 style={{
                   marginLeft: 8,
-                  borderColor: "#2a5",
-                  background: "#153",
+                  borderColor: "rgba(54, 170, 34, 1)",
+                  background: "rgba(24, 85, 17, 1)",
                   color: "#aef",
                 }}
                 onClick={onCheckout}
